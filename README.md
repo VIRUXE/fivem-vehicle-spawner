@@ -1,4 +1,7 @@
 # Vehicle Spawner for FiveM
+
+![](preview.png)
+
 A vehicle spawner using ox_lib and ESX.
 
 Now... ESX is only used for the `SpawnVehicle` function, just because. If you don't like it just adapt to your requirements.

@@ -20,6 +20,7 @@ for k, v in pairs(Vehicles) do
 		for kkk, vvv in pairs(vv) do
 			moarOptions[kkk] = {
 				title    = vvv,
+				image    = ('https://docs.fivem.net/vehicles/%s.webp'):format(kkk),
 				onSelect = function()
 					ESX.Game.SpawnVehicle(joaat(kkk), GetEntityCoords(cache.ped), GetEntityHeading(cache.ped), function(vehicle)
 						local currVehicle <const> = GetVehiclePedIsIn(cache.ped, false)
